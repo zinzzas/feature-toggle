@@ -6,7 +6,7 @@ feature toggle sample using Spring Boot + Togglz
 
 * Spring Boot 2.6.7
 * Java 18 (feat.corretto-18)
-* Gradle .2.x
+* Gradle 7.4.2
 * Togglz 3.3.3
 
 ### Building the artifact ###
