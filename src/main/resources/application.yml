@@ -1,0 +1,27 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: feature-toggle
+
+# spring boot actuator endpoint
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, togglz
+
+togglz:
+  enabled: true
+  feature-enums:
+      com.sample.featuretoggle.config.featureToggles.FeatureToggles
+  endpoint:
+    enabled: true
+    sensitive: true
+
+  #features:
+  #  MY_PURCHASE_VIA_API:
+  #    enabled: true
+  #  USE_NEW_SERVICE_VIA_API:
+  #    enabled: true

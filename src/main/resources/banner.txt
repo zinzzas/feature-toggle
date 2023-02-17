@@ -1,0 +1,7 @@
+${AnsiColor.BRIGHT_YELLOW}     ______    _   _     _   ______   ______
+${AnsiColor.BRIGHT_YELLOW}    |____  |  (_) | \   | | |____  | |____  |      /\
+${AnsiColor.BRIGHT_YELLOW}        / /   | | |  \  | |     / /      / /      /  \    ___
+${AnsiColor.BRIGHT_YELLOW}       / /    | | | \ \ | |    / /      / /      / /\ \  /  __|
+${AnsiColor.BRIGHT_YELLOW}      / /___  | | | |\ \| |   / /___   / /___   / ____ \ \__  \  _
+${AnsiColor.BRIGHT_YELLOW}     |______| |_| |_| \___|  |______| |______| /_/    \_\____ / (_)
+${Ansi.GREEN} :: Spring Boot ::${spring-boot.formatted-version} ${Ansi.DEFAULT}

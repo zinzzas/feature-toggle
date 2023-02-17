@@ -1,0 +1,17 @@
+### Feature Toggles Test Url
+GET http://localhost:9090/api/userName
+
+### togglz info
+GET http://localhost:9090/actuator/togglz
+
+### change togglz status
+POST http://localhost:9090/actuator/togglz/USE_NEW_SERVICE_VIA_API
+Content-Type: application/json
+
+{"name": "USE_NEW_SERVICE_VIA_API", "enabled": "true", "enabledByDefault": "false"}
+
+> {%
+  client.test("API SERVICE를 사용 하도록 기능을 활성화 시킨다.", function () {
+    client.assert(response.body.hasOwnProperty("enabled") === true)
+  })
+%}
