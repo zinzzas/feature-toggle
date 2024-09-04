@@ -18,7 +18,10 @@ togglz:
       com.sample.featuretoggle.config.featureToggles.FeatureToggles
   endpoint:
     enabled: true
-    sensitive: true
+    path: /togglz-console
+    #sensitive: true
+  console:
+    use-management-port: false
 
   #features:
   #  MY_PURCHASE_VIA_API:

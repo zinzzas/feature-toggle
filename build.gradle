@@ -4,9 +4,13 @@ plugins {
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 }
 
-group = 'com.sample'
+group = 'com.sample.featuretoggle'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
+
+bootJar {
+    enabled = true
+}
 
 repositories {
     mavenCentral()

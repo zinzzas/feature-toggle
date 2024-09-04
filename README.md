@@ -4,10 +4,10 @@ feature toggle sample using Spring Boot + Togglz
 
 ### Requirements ###
 
-* Spring Boot 2.6.7
-* Java 18 (feat.corretto-18)
-* Gradle 7.4.2
-* Togglz 3.3.3
+*[x] Spring Boot 2.6.7
+*[x] Java 18 (feat.corretto-18)
+*[x] Gradle 7.4.2
+*[x] Togglz 3.3.3
 
 ### Building the artifact ###
 
@@ -19,9 +19,9 @@ gradle build
 
 ```
 gradle bootRun
-```
+````
 
-### Toggles & Actuator Togglz Test URLs
+### Toggles & Actuator Togglz Test URLs`
 
 ```
 java/com/sample/featuretoggle/http/test.http
